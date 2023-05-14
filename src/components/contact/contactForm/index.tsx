@@ -13,7 +13,7 @@ const ContactForm: React.FC<ContactFormPropsTypes> = ({
       >
         <input
           onChange={handleChange}
-          className="border-2 border-neutral-950 p-[5px] outline-none m-1.5 placeholder-gray-900 placeholder:roboto  bg-transparent"
+          className="border-2 border-neutral-950 p-1.5 outline-none m-1.5 placeholder-gray-900 placeholder:roboto  bg-transparent"
           type="text"
           name="name"
           value={formData.name}
