@@ -14,8 +14,12 @@ const ContactInfo: React.FC = () => {
         </p>
         <p className="font-bold">info@booreykoo.com</p>
         <div className="flex justify-end items-center w-full mt-5">
-          <img src={facebookicon} className="mr-6 " />
-          <img src={instagramicon} />
+          <a href="https://www.facebook.com/">
+            <img src={facebookicon} className="mr-6 " />
+          </a>
+          <a href="https://www.instagram.com/">
+            <img src={instagramicon} />
+          </a>
         </div>
       </div>
     </div>
