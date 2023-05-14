@@ -6,7 +6,7 @@ const ContactForm: React.FC<ContactFormPropsTypes> = ({
   handleSubmit,
 }) => {
   return (
-    <div className="xl:pt-[0] xl:pt-12  pt-1.5">
+    <div className="xl:pt-[0] xl:pt-12  pt-7">
       <form
         onSubmit={handleSubmit}
         className="flex flex-col justify-center xl:w-1/2 xl:absolute xl:top-[10%]  xl:left-[3%] "
