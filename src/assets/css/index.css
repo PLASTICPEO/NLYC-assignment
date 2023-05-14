@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Darumadrop+One&family=Konkhmer+Sleokchher&family=Roboto:wght@100;400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .writing-vertical-rl {
+    writing-mode: vertical-lr;
+  }
+}
+
+.material-icons {
+  color: white;
+}
