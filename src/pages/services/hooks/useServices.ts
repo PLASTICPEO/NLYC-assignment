@@ -10,6 +10,7 @@ export const useServices = () => {
 
   useEffect(() => {
     getServiceList().then((response) => {
+      console.log(response);
       setServiceList(response.data.data.items);
       setTitle(response.data.data.title);
       setSidebarText(response.data.data.sidebar_text);

@@ -1,4 +1,4 @@
 export enum PORTFOLIO {
-  list = "/portfolio",
-  item = "/portfolio",
+  list = "/data",
+  item = "/data",
 }

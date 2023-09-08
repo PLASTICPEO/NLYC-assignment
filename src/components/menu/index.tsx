@@ -18,7 +18,48 @@ const Menu: React.FC<MenuPropsTypes> = ({ isWhite }) => {
           </button>
           <div className="flex flex-col ">
             <ul className="absolute top-[20%] left-[50%] -translate-x-1/2 ">
-              {menuItems?.map((item, index) => {
+              <Link to="/">
+                <li
+                  onClick={handleToggle}
+                  className="font-roboto active:font-bold text-3xl mt-5"
+                >
+                  Home
+                </li>
+              </Link>
+              <Link to="/portfolio">
+                <li
+                  onClick={handleToggle}
+                  className="font-roboto active:font-bold text-3xl mt-5"
+                >
+                  Portfolio
+                </li>
+              </Link>
+              <Link to="/services">
+                <li
+                  onClick={handleToggle}
+                  className="font-roboto active:font-bold text-3xl mt-5"
+                >
+                  Services
+                </li>
+              </Link>
+              <Link to="/contact">
+                <li
+                  onClick={handleToggle}
+                  className="font-roboto active:font-bold text-3xl mt-5"
+                >
+                  Contact
+                </li>
+              </Link>
+              <Link to="/about">
+                <li
+                  onClick={handleToggle}
+                  className="font-roboto active:font-bold text-3xl mt-5"
+                >
+                  About
+                </li>
+              </Link>
+
+              {/* {menuItems?.map((item, index) => {
                 return (
                   <Link
                     key={index}
@@ -32,7 +73,7 @@ const Menu: React.FC<MenuPropsTypes> = ({ isWhite }) => {
                     </li>
                   </Link>
                 );
-              })}
+              })} */}
             </ul>
             <p className="font-roboto text-xs mt-24 absolute bottom-[20%] left-[50%] -translate-x-1/2 ">
               {menuText}
